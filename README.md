@@ -59,7 +59,7 @@ add to settings.py
 add to urls.py
 
     from django.conf.urls import url
-    from ...backends import AzureADBackend
+    from azure_ad_sso.backends import AzureADBackend
 
     ...
     urlpatterns = [
